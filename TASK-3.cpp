@@ -110,7 +110,7 @@ int main()
 	int n;
 	grades.Number(n);
 	grades.GetData();
-    grades.DisplayData();
+    	grades.DisplayData();
 	grades.AssignGrade(n);
 	grades.DisplayData1();
 	grades.Calculate();

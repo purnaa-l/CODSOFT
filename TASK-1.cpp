@@ -7,9 +7,9 @@ int main()
 	int x, guess, c=0;
 	char answer, answer2;
 	srand(time(NULL));
-	x=rand();				//Generating a random number using rand() function. 
+	x=rand();				
 	int a=x%10000;
-	int b=0, e=9999;		// Inititalising the conditions to the beginning as 0 and end as 9999. 
+	int b=0, e=9999;		 
 	loop:cout<<"Hello!\nWelcome to the Game!!!\nThe rules are simple, the answer ranges from 0 to 9999 and you guess the answer until you get it right!\nReady?\nLet's Go!\n"<<endl;
 	cout<<"Type Y for continuing."<<endl;
 	cin>>answer;
